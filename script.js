@@ -36,7 +36,7 @@ function moveShip() {
 
 // Gọi API OCEAN với token
 async function fetchOceanData() {
-    const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0aGFuaGNvbmcxNDE5OThAZ21haWwuY29tIn0.62oVnHMneOBUa0KWpGL0CVWLM23KS8B1rgMaEXspqhc";
+    const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJsZXZhbnRhbi52aW5hMTE3MTcwQGdtYWlsLmNvbSIsImlhdCI6MTc0MDgwOTAxMH0.6F2roc8bpAXbpnQdaJL4NpBIllOcMAOoTi6PnTdBKB4";
     try {
         const response = await fetch('https://api.ocean.o.xyz/v1/treasures', {
             method: 'GET',
