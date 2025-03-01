@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1e90ff; /* Màu nền đại dương */
+}
+
+#game-container {
+  position: relative;
+}
+
+#gameCanvas {
+  border: 2px solid black;
+  background: linear-gradient(to bottom, #87ceeb, #1e90ff); /* Gradient nước */
+}
+
+#score {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 24px;
+  color: yellow;
+  font-family: Arial, sans-serif;
+  text-shadow: 2px 2px 4px black; /* Điểm nổi bật hơn */
+}
